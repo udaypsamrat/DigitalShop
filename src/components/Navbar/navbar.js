@@ -3,10 +3,6 @@ import "./navbar.css";
 import { Link } from "react-router-dom";
 
 function Navbar() {
-  //const [showLinks, setShowLinks] = useState(false);
-
-  //const handleClick = () => setShowLinks(!showLinks);
-
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-success">
       <div className="container-fluid">
@@ -56,7 +52,7 @@ function Navbar() {
                 <hr className="dropdown-divider" />
               </li>
               <li>
-                <Link className="dropdown-item" to="/men/inner.sleep">
+                <Link className="dropdown-item" to="/men/innersleep">
                   Inner & Sleep Wear
                 </Link>
               </li>
@@ -170,7 +166,7 @@ function Navbar() {
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link active text-white" to="/contact">
+            <Link className="nav-link active text-white" to="/ContactUs">
               ContactUs
             </Link>
           </li>

@@ -2,11 +2,7 @@ import React, { Component } from "react";
 
 export class About extends Component {
   render() {
-    return (
-      <div>
-        <h5>About</h5>
-      </div>
-    );
+    return <div>about</div>;
   }
 }
 

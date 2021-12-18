@@ -1,11 +1,7 @@
 import React from "react";
 
 function Mobiles() {
-  return (
-    <div>
-      <h3>helool Mobiles</h3>
-    </div>
-  );
+  return <div>Mobiles</div>;
 }
 
 export default Mobiles;
