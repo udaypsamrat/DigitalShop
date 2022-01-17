@@ -1,0 +1,10 @@
+.bottom {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.bottom-items img {
+  padding: 20px;
+  justify-content: space-between;
+}

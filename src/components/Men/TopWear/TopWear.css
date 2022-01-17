@@ -1,0 +1,13 @@
+.top {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.top-items {
+  flex-wrap: wrap;
+}
+
+.top-items img {
+  padding: 20px;
+}

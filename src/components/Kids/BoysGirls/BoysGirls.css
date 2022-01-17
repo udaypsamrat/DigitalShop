@@ -1,1 +1,13 @@
- 
+.boysgirls {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.bg-items {
+  flex-wrap: wrap;
+}
+
+.bg-items img {
+  padding: 20px;
+}

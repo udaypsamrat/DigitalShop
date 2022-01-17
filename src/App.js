@@ -2,6 +2,7 @@ import "./App.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navbar from "./components/Navbar/navbar";
 import "bootstrap/dist/css/bootstrap.min.css";
+import DigitalShop from "./components/DigitalShop/DigitalShop";
 import ContactUs from "./components/ContactUs/ContactUs";
 import About from "./components/About/About";
 // Men Header
@@ -26,8 +27,9 @@ function App() {
       <Navbar />
       <Switch>
         {" "}
+        <Route exact path="/" component={DigitalShop} />
         <Route path="/about" component={About} />
-        <Route path="/ContactUs" component={ContactUs} />
+        <Route path="/contactus" component={ContactUs} />
         {/* Men */}
         <Route path="/men/topwear" component={TopWear} />
         <Route path="/men/menfootwear" component={MenFootwear} />

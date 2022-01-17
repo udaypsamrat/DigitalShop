@@ -1,0 +1,29 @@
+.footer {
+  justify-content: center;
+  align-items: center;
+  background-color: gainsboro;
+  padding: 20px;
+  margin: 10px;
+  margin-bottom: 0;
+}
+
+.f-i-links {
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.f-i-links a {
+  margin: 5px;
+  text-decoration: none;
+  color: palevioletred;
+}
+
+.f-quit {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.f-left ul {
+  list-style: none;
+}

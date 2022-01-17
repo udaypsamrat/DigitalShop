@@ -4,10 +4,11 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-success">
+    <nav className="navbar navbar-expand-lg navbar-light bg-success fixed-top">
       <div className="container-fluid">
         <Link className="navbar-brand text-white" to="/" exact>
           Digital Shop
+          <Link to="/"></Link>
         </Link>
         <i
           className="navbar-toggler"
@@ -166,7 +167,7 @@ function Navbar() {
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link active text-white" to="/ContactUs">
+            <Link className="nav-link active text-white" to="/contactus">
               ContactUs
             </Link>
           </li>

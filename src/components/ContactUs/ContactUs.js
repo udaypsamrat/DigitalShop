@@ -1,8 +1,9 @@
 import React, { Component } from "react";
+import "./Contact.css";
 
 export class ContactUs extends Component {
   render() {
-    return <div>contactus</div>;
+    return <div className="c">contactus</div>;
   }
 }
 

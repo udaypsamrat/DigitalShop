@@ -1,0 +1,13 @@
+.toys {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.toys-items {
+  flex-wrap: wrap;
+}
+
+.toys-items img {
+  padding: 20px;
+}
