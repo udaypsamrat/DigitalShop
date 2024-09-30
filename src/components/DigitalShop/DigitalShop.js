@@ -1,7 +1,7 @@
 import React from "react";
 import "./DigitalShop.css";
 import { Link } from "react-router-dom";
-import Footer from "../../containers/Footer/Footer";
+
 
 function DigitalShop() {
   return (
@@ -33,7 +33,7 @@ function DigitalShop() {
         </Link>
       </div>
       <h2 className="digh">Top Categories to choose from</h2>
-      <Footer />
+      
     </div>
   );
 }

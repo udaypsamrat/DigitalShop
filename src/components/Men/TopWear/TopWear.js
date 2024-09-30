@@ -5,10 +5,6 @@ function TopWear() {
     <div className="top">
       <h5>TopWear</h5>
       <div className="top-items">
-        <img
-          src={require("../../../assets/baby-newborn.jpg").default}
-          alt="/"
-        />
         <img src={require("../../../assets/home.jpg").default} alt="/" />
         <img src={require("../../../assets/home.jpg").default} alt="/" />
         <img src={require("../../../assets/home.jpg").default} alt="/" />

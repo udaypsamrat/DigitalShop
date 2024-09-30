@@ -10,7 +10,7 @@ function Navbar() {
           Digital Shop
           <Link to="/"></Link>
         </Link>
-        <i
+        <samp
           className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
@@ -19,12 +19,14 @@ function Navbar() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon "></span>
-        </i>
+          {/* <span className="navbar-toggler-icon "></span> */}
+
+          <i className="fas fa-bars"></i>
+        </samp>
       </div>
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-          <li className="nav-item dropdown">
+        <ul className="navbar-nav ml-auto">
+          <li className="nav-item dropdown"> 
             <Link
               className="nav-link dropdown-toggle text-white"
               to="/men"
@@ -140,12 +142,18 @@ function Navbar() {
             </ul>
           </li>
           <li className="nav-item">
+            <Link className="nav-link active text-white" to="/contactus">
+              ContactUs
+            </Link>
+          </li>
+          <li className="nav-item">
             <Link
               className="nav-link active text-white"
               aria-current="page"
               to="/cart"
             >
-              <i class="fas fa-cart-plus"></i>
+              {/* <i class="fas fa-cart-plus"></i> */}
+              <i class="fas fa-lock"></i>
             </Link>
           </li>
           <li className="nav-item">
@@ -154,10 +162,10 @@ function Navbar() {
               aria-current="page"
               to="/login"
             >
-              Login
+              <i class="fas fa-user"></i>
             </Link>
           </li>
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <Link
               className="nav-link active text-white"
               aria-current="page"
@@ -165,12 +173,7 @@ function Navbar() {
             >
               About
             </Link>
-          </li>
-          <li className="nav-item">
-            <Link className="nav-link active text-white" to="/contactus">
-              ContactUs
-            </Link>
-          </li>
+          </li> */}
         </ul>
       </div>
     </nav>

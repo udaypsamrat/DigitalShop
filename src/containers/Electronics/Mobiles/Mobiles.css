@@ -1,0 +1,12 @@
+.mobiles{
+    margin: 70px 20px;
+    text-align: justify;
+    justify-content: center;
+}
+
+.m-card{
+  display: flex;
+  flex-wrap: wrap;
+  
+    
+}

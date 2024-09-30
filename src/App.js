@@ -5,7 +5,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import DigitalShop from "./components/DigitalShop/DigitalShop";
 import ContactUs from "./components/ContactUs/ContactUs";
 import About from "./components/About/About";
-// Men Header
+ 
+//Men Header
 import TopWear from "./components/Men/TopWear/TopWear";
 import MenFootwear from "./components/Men/MenFootwear/MenFootwear";
 import InnerSleep from "./components/Men/InnerSleep/InnerSleep";
@@ -20,6 +21,8 @@ import Toys from "./components/Kids/Toys/Toys";
 import Mobiles from "./containers/Electronics/Mobiles/Mobiles";
 import Laptops from "./containers/Electronics/Laptops/Laptops";
 import Tevelisions from "./containers/Electronics/Tevelisions/Tevelisions";
+import Login from "./components/Login/Login";
+import Footer from "./containers/Footer/Footer";
 
 function App() {
   return (
@@ -30,6 +33,7 @@ function App() {
         <Route exact path="/" component={DigitalShop} />
         <Route path="/about" component={About} />
         <Route path="/contactus" component={ContactUs} />
+        <Route path="/login" component={Login} />
         {/* Men */}
         <Route path="/men/topwear" component={TopWear} />
         <Route path="/men/menfootwear" component={MenFootwear} />
@@ -45,6 +49,7 @@ function App() {
         <Route path="/electronics/laptops" component={Laptops} />
         <Route path="/electronics/tevelisions" component={Tevelisions} />
       </Switch>
+       <Footer/>
     </Router>
   );
 }

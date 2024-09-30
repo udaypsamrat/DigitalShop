@@ -1,6 +1,8 @@
 .c {
-  margin-top: 100px;
+  padding: 10%;
+  margin-top: 50px;
   justify-content: center;
   align-items: center;
   text-align: center;
+  background-color: rgb(194, 201, 177);
 }
